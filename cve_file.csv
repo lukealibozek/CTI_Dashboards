@@ -1,0 +1,596 @@
+cve,NVD_description,NVD_baseScore,CISA_KEV,CISA_KEV_added,rss_title,url,date scraped,date published,report_key,context
+CVE-2022-1096,Type confusion in V8 in Google Chrome prior to 99.0.4844.84 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.,8.8,In KEV,2022-03-28 00:00:00,"This content was collected from the internet. Google Issues Urgent Chrome Update to Patch Actively Exploited Zero-Day Vulnerability. CVE-2022-1096 is the second zero-day vulnerability addressed by Google in Chrome since the start of the year.  
+cwe.mitre.org/data/definitio…",https://twitter.com/NIKITAR35324799/status/1628339472071905280,2023-02-22,2023-02-22 10:28:38+00:00,CVE-2022-1096https://twitter.com/NIKITAR35324799/status/1628339472071905280,Exploitation Observed
+CVE-2022-22963,"In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, when using routing functionality it is possible for a user to provide a specially crafted SpEL as a routing-expression that may result in remote code execution and access to local resources.",9.8,In KEV,2022-08-25 00:00:00,"Retweet from another online publication. CVE-2022-22963 : A new zero-day vulnerability in the Spring Core Java framework called 'Spring4Shell' has been publicly disclosed, allowing unauthenticated remote code execution on applications.  
+bleepingcomputer.com/news/security/…",https://twitter.com/SANTOSG78253403/status/1628317255116197888,2023-02-22,2023-02-22 09:01:58+00:00,CVE-2022-22963https://twitter.com/SANTOSG78253403/status/1628317255116197888,Exploitation Observed
+CVE-2023-39952,no data,no data,Not in KEV,no data,"Detect New #FortiNet #FortiNAC vulnerabilities CVE-2023-39952 ,Attacker trying to exploited in the wild after POC published ,Detect attacks with a set of rules in the #CyberCave Platform.",https://twitter.com/Cyber_Cave_sa/status/1628288231161663488,2023-02-22,2023-02-22 07:24:03+00:00,CVE-2023-39952https://twitter.com/Cyber_Cave_sa/status/1628288231161663488,Exploitation Observed
+CVE-2022-42856,"A type confusion issue was addressed with improved state handling. This issue is fixed in Safari 16.2, tvOS 16.2, macOS Ventura 13.1, iOS 15.7.2 and iPadOS 15.7.2, iOS 16.1.2. Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited against versions of iOS released before iOS 15.1..",8.8,In KEV,2022-12-14 00:00:00,"Apple corrigiu nova falha zero-day usada para hackear iPhones: E a Apple corrigiu nova falha zero-day usada para hackear iPhones e que é rastreada como CVE-2022-42856. Confiras os detalhes e atualize.    
+  
+Leia o restante do texto ""Apple corrigiu nova… dlvr.it/SjjzkT",https://twitter.com/edivaldobrito/status/1627762778378473473,2023-02-22,2023-02-21 12:10:22+00:00,CVE-2022-42856https://twitter.com/edivaldobrito/status/1627762778378473473,PoC
+CVE-2022-30190,Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability.,7.8,In KEV,2022-06-14 00:00:00,"【ブログ：#MS診断ツール の #ゼロデイ脆弱性 Follina(CVE-2022-30190)】  
+本ブログでは、#Follina として知られるCVE-2022-30190についての詳細を #Tanium を用いて解説しております。ぜひご一読ください。  
+tanium.jp/blog/zero-day-…",https://twitter.com/TaniumJ/status/1626038654203465728,2023-02-22,2023-02-21 12:10:22+00:00,CVE-2022-30190https://twitter.com/TaniumJ/status/1626038654203465728,Zero Day
+CVE-2022-38731,"Qaelum DOSE 18.08 through 21.1 before 21.2 allows Directory Traversal via the loadimages name parameter. It allows a user to specify an arbitrary location on the server's filesystem from which to load an image. (Only images are displayed to the attacker. All other files are loaded but not displayed.) The Content-Type response header reflects the actual content type of the file being requested. This allows an attacker to enumerate files on the local system. Additionally, remote resources can be requested via a UNC path, allowing an attacker to coerce authentication out from the server to the attackers machine.",no data,Not in KEV,no data,"■■■■□ CVE-2022-38731: A blind arbitrary file read, that could also be used for authentication coercion via a mechanism known as a Universal Naming Convention (UNC) path.  
+  
+Qaelum DOSE Zero-Day.   
+  
+pwc.co.uk/issues/cyber-s…",https://twitter.com/cKure7/status/1625728602435092481,2023-02-22,2023-02-21 12:10:22+00:00,CVE-2022-38731https://twitter.com/cKure7/status/1625728602435092481,Exploitation Observed
+CVE-2023-21823,Windows Graphics Component Remote Code Execution Vulnerability,7.8,In KEV,2023-02-14 00:00:00,マイクロソフトの2023年2月の定例修正について。Windowsグラフィックコンポーネントにおける遠隔コード実行の脆弱性（CVE-2023-21823、既に悪用済み）は、Windows UpdateではなくMicrosoft Storeのセキュリティ更新での対処。自動更新を無効にしている利用者は有効化推奨。 bitdefender.com/blog/hotforsec…,https://twitter.com/__kokumoto/status/1627807964672454656,2023-02-22,2023-02-21 11:48:29+00:00,CVE-2023-21823https://twitter.com/__kokumoto/status/1627807964672454656,Zero Day
+CVE-2022-47986,"IBM Aspera Faspex 4.4.2 Patch Level 1 and earlier could allow a remote attacker to execute arbitrary code on the system, caused by a YAML deserialization flaw. By sending a specially crafted obsolete API call, an attacker could exploit this vulnerability to execute arbitrary code on the system. The obsolete API call was removed in Faspex 4.4.2 PL2. IBM X-Force ID: 243512.",9.8,In KEV,2023-02-21 00:00:00,"The security hole, tracked as CVE-2022-47986 and classified as ‘high severity’, is a YAML deserialization flaw that can be exploited by a remote attacker for arbitrary code execution using specially crafted API calls. securityweek.com/recently-patch…",https://twitter.com/jbhall56/status/1626208485531877377,2023-02-22,2023-02-21 11:48:29+00:00,CVE-2022-47986https://twitter.com/jbhall56/status/1626208485531877377,Exploitation Observed
+CVE-2022-47986,"IBM Aspera Faspex 4.4.2 Patch Level 1 and earlier could allow a remote attacker to execute arbitrary code on the system, caused by a YAML deserialization flaw. By sending a specially crafted obsolete API call, an attacker could exploit this vulnerability to execute arbitrary code on the system. The obsolete API call was removed in Faspex 4.4.2 PL2. IBM X-Force ID: 243512.",9.8,In KEV,2023-02-21 00:00:00,"A vulnerability affecting IBM’s Aspera Faspex file transfer solution, tracked as CVE-2022-47986, has been exploited in attacks. securityweek.com/recently-patch…",https://twitter.com/EduardKovacs/status/1625846890968350722,2023-02-22,2023-02-21 11:48:29+00:00,CVE-2022-47986https://twitter.com/EduardKovacs/status/1625846890968350722,Zero Day
+CVE-2023-21823,Windows Graphics Component Remote Code Execution Vulnerability,7.8,In KEV,2023-02-14 00:00:00,"Its that time of the month, and i don't mean Valentines, it is of course #PatchTuesday the @msftsecurity notes have been released. Looks like 3 Local Priv Esc vulns exploited in the wild.    
+CVE-2023-21823, CVE-2023-21715, CVE-2023-23376",https://twitter.com/KevTheHermit/status/1625556481838915588,2023-02-22,2023-02-21 11:48:29+00:00,CVE-2023-21823https://twitter.com/KevTheHermit/status/1625556481838915588,Exploitation Observed
+CVE-2023-21715,Microsoft Publisher Security Features Bypass Vulnerability,7.3,In KEV,2023-02-14 00:00:00,"Its that time of the month, and i don't mean Valentines, it is of course #PatchTuesday the @msftsecurity notes have been released. Looks like 3 Local Priv Esc vulns exploited in the wild.    
+CVE-2023-21823, CVE-2023-21715, CVE-2023-23376",https://twitter.com/KevTheHermit/status/1625556481838915588,2023-02-22,2023-02-21 11:48:29+00:00,CVE-2023-21715https://twitter.com/KevTheHermit/status/1625556481838915588,Exploitation Observed
+CVE-2023-23376,Windows Common Log File System Driver Elevation of Privilege Vulnerability,7.8,In KEV,2023-02-14 00:00:00,"Its that time of the month, and i don't mean Valentines, it is of course #PatchTuesday the @msftsecurity notes have been released. Looks like 3 Local Priv Esc vulns exploited in the wild.    
+CVE-2023-21823, CVE-2023-21715, CVE-2023-23376",https://twitter.com/KevTheHermit/status/1625556481838915588,2023-02-22,2023-02-21 11:48:29+00:00,CVE-2023-23376https://twitter.com/KevTheHermit/status/1625556481838915588,Exploitation Observed
+CVE-2022-4262,Type confusion in V8 in Google Chrome prior to 108.0.5359.94 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High),8.8,In KEV,2022-12-05 00:00:00,"Google #Chrome users should update their browsers!  
+  
+#Google updated for a zero-day #vulnerability [CVE-2022-4262] that attackers are exploiting in the wild.   
+  
+chromereleases.googleblog.com/2022/12/stable…  
+  
+Read: thehackernews.com/2022/12/google…",https://twitter.com/SecurityBDog/status/1625525346207514624,2023-02-22,2023-02-21 11:48:29+00:00,CVE-2022-4262https://twitter.com/SecurityBDog/status/1625525346207514624,Exploitation Observed
+CVE-2023-23529,no data,no data,Not in KEV,no data,"Apple released new security patches for MacOS, iOS, iPadOS and Safari. This includes CVE-2023-23529 which is known as being actively exploited. Read more and get an overview of vulnerable devices with the resources in our article:…lnkd.in/e2HE-yyi lnkd.in/ezRWj2gw",https://twitter.com/Esben_Dochy/status/1625510054681096192,2023-02-22,2023-02-21 11:48:29+00:00,CVE-2023-23529https://twitter.com/Esben_Dochy/status/1625510054681096192,Exploitation Observed
+CVE-2023-23529,no data,no data,Not in KEV,no data,"If you own #Apple's devices like  #iPhone, #iPad, #macOS laptops you need to install Apple security updates today!  
+ A #zeroday #vulnerability CVE-2023-23529 (arbitrary code execution in WebKit engine) is under active exploitation ""in the wild"":  
+ thehackernews.com/2023/02/patch-…",https://twitter.com/securestep9/status/1625469247718584320,2023-02-22,2023-02-21 11:48:29+00:00,CVE-2023-23529https://twitter.com/securestep9/status/1625469247718584320,Exploitation Observed
+CVE-2023-23529,no data,no data,Not in KEV,no data,"Apple has released updates for macOS, iOS and Safari and they all include a WebKit patch for a zero-day vulnerability tracked as CVE-2023-23529.  
+The post Apple Patches Actively Exploited WebKit Zero-Day Vulnerability  appeared first on SecurityWeek.  
+ securityweek.com/apple-patches-…",https://twitter.com/skunkcyberteam/status/1625461114346655745,2023-02-22,2023-02-21 11:48:29+00:00,CVE-2023-23529https://twitter.com/skunkcyberteam/status/1625461114346655745,Exploitation Observed
+CVE-2023-23514,no data,no data,Not in KEV,no data,"🚨🚨🚨  
+『Apple is aware of a report that this issue may have been actively exploited.』  
+  
+CVE-2023-23514、CVE-2023-23529  
+About the security content of iOS 16.3.1 and iPadOS 16.3.1 - Apple Support  
+support.apple.com/en-us/HT213635",https://twitter.com/autumn_good_35/status/1625458459520172034,2023-02-22,2023-02-21 11:48:29+00:00,CVE-2023-23514https://twitter.com/autumn_good_35/status/1625458459520172034,Exploitation Observed
+CVE-2023-23529,no data,no data,Not in KEV,no data,"🚨🚨🚨  
+『Apple is aware of a report that this issue may have been actively exploited.』  
+  
+CVE-2023-23514、CVE-2023-23529  
+About the security content of iOS 16.3.1 and iPadOS 16.3.1 - Apple Support  
+support.apple.com/en-us/HT213635",https://twitter.com/autumn_good_35/status/1625458459520172034,2023-02-22,2023-02-21 11:48:29+00:00,CVE-2023-23529https://twitter.com/autumn_good_35/status/1625458459520172034,Exploitation Observed
+CVE-2023-21823,Windows Graphics Component Remote Code Execution Vulnerability,7.8,In KEV,2023-02-14 00:00:00,"[+] Feb 2023 = 102 vulnerabilidades   
+- 13 EoP  
+- 2 Bypass  
+- 40 RCE  
+- 8 Inf. Disc  
+- 10 DoS  
+- 7 Spoofing  
+- 12 Edge/Chromium  
+  
+[+] 3 explotada In-the-Wild  
+- CVE-2023-21823 - 7.3  
+- CVE-2023-21715 - 7.3  
+- CVE-2023-23376 - 7.8  
+  
+Tool: github.com/Immersive-Labs…",https://twitter.com/SeguInfo/status/1627781233550712833,2023-02-22,2023-02-20 21:52:12+00:00,CVE-2023-21823https://twitter.com/SeguInfo/status/1627781233550712833,Exploitation Observed
+CVE-2023-21715,Microsoft Publisher Security Features Bypass Vulnerability,7.3,In KEV,2023-02-14 00:00:00,"[+] Feb 2023 = 102 vulnerabilidades   
+- 13 EoP  
+- 2 Bypass  
+- 40 RCE  
+- 8 Inf. Disc  
+- 10 DoS  
+- 7 Spoofing  
+- 12 Edge/Chromium  
+  
+[+] 3 explotada In-the-Wild  
+- CVE-2023-21823 - 7.3  
+- CVE-2023-21715 - 7.3  
+- CVE-2023-23376 - 7.8  
+  
+Tool: github.com/Immersive-Labs…",https://twitter.com/SeguInfo/status/1627781233550712833,2023-02-22,2023-02-20 21:52:12+00:00,CVE-2023-21715https://twitter.com/SeguInfo/status/1627781233550712833,PoC
+CVE-2023-23376,Windows Common Log File System Driver Elevation of Privilege Vulnerability,7.8,In KEV,2023-02-14 00:00:00,"[+] Feb 2023 = 102 vulnerabilidades   
+- 13 EoP  
+- 2 Bypass  
+- 40 RCE  
+- 8 Inf. Disc  
+- 10 DoS  
+- 7 Spoofing  
+- 12 Edge/Chromium  
+  
+[+] 3 explotada In-the-Wild  
+- CVE-2023-21823 - 7.3  
+- CVE-2023-21715 - 7.3  
+- CVE-2023-23376 - 7.8  
+  
+Tool: github.com/Immersive-Labs…",https://twitter.com/SeguInfo/status/1627781233550712833,2023-02-22,2023-02-20 21:52:12+00:00,CVE-2023-23376https://twitter.com/SeguInfo/status/1627781233550712833,PoC
+CVE-2023-0669,"Fortra (formerly, HelpSystems) GoAnywhere MFT suffers from a pre-authentication command injection vulnerability in the License Response Servlet due to deserializing an arbitrary attacker-controlled object. This issue was patched in version 7.1.2.",7.2,In KEV,2023-02-10 00:00:00,"Tell all  
+  
+""The vulnerability, tracked as CVE-2023-0669, was disclosed by GoAnywhere developer Fortra on February 1, after the company became aware of in-the-wild exploitation.""  
+bit.ly/3Z3SiXM",https://twitter.com/JonathanHCare/status/1627745006550147072,2023-02-22,2023-02-20 19:46:01+00:00,CVE-2023-0669https://twitter.com/JonathanHCare/status/1627745006550147072,PoC
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,no data,"Based on Shodan and Hunter searches, there’s a lot of these vulnerable Fortinet Kits out in the wild. CVE-2022-39952 https://t.co/fG87JkcuSv
+ 
+			 
+ 
+				 
+ 
+					Quoted tweet from @UK_Daniel_Card:
+ 
+				
+ 
+				 
+ 
+					There's quite of a lot of 'Fortinet kit on the interwebs!  
+'CVE-2022-39952  
+  
+http.favicon.hash:945408572  
+  
+shodan.io/search?query=h…",https://twitter.com/NaderZaveri/status/1627352971569766403,2023-02-22,2023-02-19 19:46:53+00:00,CVE-2022-39952https://twitter.com/NaderZaveri/status/1627352971569766403,PoC
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,no data,"Socialk@s retweeted:
+ 
+			
+ 
+			 
+ 
+				POC for CVE-2022-39952 affecting Fortinet FortiNAC  
+Why it's so easy... :/  
+github.com/horizon3ai/CVE…",https://twitter.com/Disbauxes/status/1628485786407514114,2023-02-22 00:00:00,2023-02-22 20:04:47+00:00,CVE-2022-39952https://twitter.com/Disbauxes/status/1628485786407514114,Zero Day
+CVE-2022-44666,Windows Contacts Remote Code Execution Vulnerability.,7.8,Not in KEV,no data,"Anonymous🐾🐱🍵☕ retweeted:
+ 
+			
+ 
+			 
+ 
+				CVE-2022-44666: Microsoft Windows Contacts (VCF/Contact/LDAP) syslink control href attribute escape vulnerability.  
+  
+PoC  
+github.com/j00sean/CVE-20…",https://twitter.com/YourAnonRiots/status/1628485622586576897,2023-02-22 00:00:00,2023-02-22 20:04:47+00:00,CVE-2022-44666https://twitter.com/YourAnonRiots/status/1628485622586576897,
+CVE-2023-21839,"Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",7.5,Not in KEV,no data,"Anonymous🐾🐱🍵☕ retweeted:
+ 
+			
+ 
+			 
+ 
+				CVE-2023-21839 Wheels made by public poc according to the network  
+Affected version  
+12.2.1.3.0  
+12.2.1.4.0  
+14.1.1.0.0  
+github.com/Scarehehe/Webl…",https://twitter.com/YourAnonRiots/status/1628485535722536960,2023-02-22 00:00:00,2023-02-22 20:04:47+00:00,CVE-2023-21839https://twitter.com/YourAnonRiots/status/1628485535722536960,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,no data,"Giddyspurz🐀 retweeted:
+ 
+			
+ 
+			 
+ 
+				Our technical deep-dive for the recent #Fortinet FortiNAC CVE-2022-39952  
+🔺 POC Exploit for RCE  
+🔺 Reversing the Patch  
+🔺 Indicators of Compromise  
+  
+horizon3.ai/fortinet-forti…",https://twitter.com/gd101spr3/status/1628484010706931715,2023-02-22 00:00:00,2023-02-22 20:04:47+00:00,CVE-2022-39952https://twitter.com/gd101spr3/status/1628484010706931715,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,no data,"Badacze opublikowali exploit PoC dla krytycznej luki (CVE-2022-39952) w Fortinet FortiNAC. Zgłoszony w zeszłym tygodniu problem został oceniony na 9,8 na 10 w skali CVSS i umożliwia zapisywanie dowolnych plików w systemie, którego dotyczy problem, a także zdalne wykonywanie kodu.",https://twitter.com/admITeu/status/1628479286653878273,2023-02-22 00:00:00,2023-02-22 20:04:47+00:00,CVE-2022-39952https://twitter.com/admITeu/status/1628479286653878273,
+CVE-2023-21839,"Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",7.5,Not in KEV,no data,"Good Sector retweeted:
+ 
+			
+ 
+			 
+ 
+				CVE-2023-21839: Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware..affected are 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP..  
+  
+PoC  
+github.com/Scarehehe/Webl…",https://twitter.com/good_sector/status/1628476282735411200,2023-02-22 00:00:00,2023-02-22 20:04:47+00:00,CVE-2023-21839https://twitter.com/good_sector/status/1628476282735411200,
+CVE-2023-21839,"Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",7.5,Not in KEV,no data,"Andre Gironda retweeted:
+ 
+			
+ 
+			 
+ 
+				CVE-2023-21839: Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware..affected are 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP..  
+  
+PoC  
+github.com/Scarehehe/Webl…",https://twitter.com/AndreGironda/status/1628476068863815680,2023-02-22 00:00:00,2023-02-22 20:04:47+00:00,CVE-2023-21839https://twitter.com/AndreGironda/status/1628476068863815680,
+CVE-2023-21839,"Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",7.5,Not in KEV,no data,"Good Sector retweeted:
+ 
+			
+ 
+			 
+ 
+				CVE-2023-21839 Wheels made by public poc according to the network  
+Affected version  
+12.2.1.3.0  
+12.2.1.4.0  
+14.1.1.0.0  
+github.com/Scarehehe/Webl…",https://twitter.com/good_sector/status/1628475718458826752,2023-02-22 00:00:00,2023-02-22 20:04:47+00:00,CVE-2023-21839https://twitter.com/good_sector/status/1628475718458826752,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,no data,"Exploit released for critical Fortinet RCE flaw, patch now  
+  
+Security researchers have released a proof-of-concept exploit for a critical-severity vulnerability (CVE-2022-39952) in Fortinet's FortiNAC network...  
+  
+🔗️ link.is.it/mwq5c3",https://twitter.com/OverSecurity/status/1628474729001517059,2023-02-22 00:00:00,2023-02-22 20:04:47+00:00,CVE-2022-39952https://twitter.com/OverSecurity/status/1628474729001517059,
+CVE-2023-21839,"Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",7.5,Not in KEV,no data,"Joe Roosen retweeted:
+ 
+			
+ 
+			 
+ 
+				CVE-2023-21839: Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware..affected are 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP..  
+  
+PoC  
+github.com/Scarehehe/Webl…",https://twitter.com/JRoosen/status/1628473214622961664,2023-02-22 00:00:00,2023-02-22 20:04:47+00:00,CVE-2023-21839https://twitter.com/JRoosen/status/1628473214622961664,
+CVE-2023-21839,"Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",7.5,Not in KEV,no data,"Transhackerism retweeted:
+ 
+			
+ 
+			 
+ 
+				CVE-2023-21839: Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware..affected are 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP..  
+  
+PoC  
+github.com/Scarehehe/Webl…",https://twitter.com/transhackerism/status/1628472486533775362,2023-02-22 00:00:00,2023-02-22 20:04:47+00:00,CVE-2023-21839https://twitter.com/transhackerism/status/1628472486533775362,
+CVE-2023-23752,An issue was discovered in Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints.,no data,Not in KEV,no data,"maztor.eth retweeted:
+ 
+			
+ 
+			 
+ 
+				CVE-2023-23752: Joomla! 4.0.0 through 4.2.7. An improper access check allows unauthorized access to webservice endpoints  
+  
+PoC  
+xz.aliyun.com/t/12175",https://twitter.com/Mazt0r/status/1628471327488110592,2023-02-22 00:00:00,2023-02-22 20:04:47+00:00,CVE-2023-23752https://twitter.com/Mazt0r/status/1628471327488110592,
+CVE-2023-21839,"Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",7.5,Not in KEV,no data,"M@rtino retweeted:
+ 
+			
+ 
+			 
+ 
+				CVE-2023-21839 #Vulnerability for @Oracle #WebLogic. Affects functionality of the component Core which exposes sensitive information to an actor that is not explicitly authorized to have access to that information.   
+PoC is publicly available #DFIR #InfoSec  
+github.com/Scarehehe/Webl…",https://twitter.com/martinorob/status/1628468778454458370,2023-02-22 00:00:00,2023-02-22 20:04:47+00:00,CVE-2023-21839https://twitter.com/martinorob/status/1628468778454458370,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,no data,"Thomas 'thms' M. retweeted:
+ 
+			
+ 
+			 
+ 
+				POC for CVE-2022-39952 affecting Fortinet FortiNAC  
+Why it's so easy... :/  
+github.com/horizon3ai/CVE…",https://twitter.com/0xTHMS/status/1628468737899634688,2023-02-22 00:00:00,2023-02-22 20:04:47+00:00,CVE-2022-39952https://twitter.com/0xTHMS/status/1628468737899634688,
+CVE-2023-21839,"Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",7.5,Not in KEV,no data,"Securityblog retweeted:
+ 
+			
+ 
+			 
+ 
+				CVE-2023-21839 #Vulnerability for @Oracle #WebLogic. Affects functionality of the component Core which exposes sensitive information to an actor that is not explicitly authorized to have access to that information.   
+PoC is publicly available #DFIR #InfoSec  
+github.com/Scarehehe/Webl…",https://twitter.com/Securityblog/status/1628468529354735618,2023-02-22 00:00:00,2023-02-22 20:04:47+00:00,CVE-2023-21839https://twitter.com/Securityblog/status/1628468529354735618,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,no data,"~v3ga~ retweeted:
+ 
+			
+ 
+			 
+ 
+				POC for CVE-2022-39952 affecting Fortinet FortiNAC  
+Why it's so easy... :/  
+github.com/horizon3ai/CVE…",https://twitter.com/v3ga_hax/status/1628464588508508160,2023-02-22 00:00:00,2023-02-22 20:04:47+00:00,CVE-2022-39952https://twitter.com/v3ga_hax/status/1628464588508508160,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,no data,"Faisal Alhumaid retweeted:
+ 
+			
+ 
+			 
+ 
+				🚨 بالأمس نشرت شركة horizon3ai مقالة و POC عن ثغرة:  
+  
+External Control of File Name or Path in keyUpload scriptlet (CVE-2022-39952)  
+  
+● الثغرة مصابة بخدمة #FortiNAC المقدمة من شركة #Fortinet لحلول الأمن السيبراني.  
+● يمكن إستغلالها بسهولة وتؤدي إلى RCE.  
+● التصنيف: Critical 9.8",https://twitter.com/FS_Alhumaid/status/1628461931953635329,2023-02-22 00:00:00,2023-02-22 20:04:47+00:00,CVE-2022-39952https://twitter.com/FS_Alhumaid/status/1628461931953635329,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,no data,"🚨 بالأمس نشرت شركة horizon3ai مقالة و POC عن ثغرة:  
+  
+External Control of File Name or Path in keyUpload scriptlet (CVE-2022-39952)  
+  
+● الثغرة مصابة بخدمة #FortiNAC المقدمة من شركة #Fortinet لحلول الأمن السيبراني.  
+● يمكن إستغلالها بسهولة وتؤدي إلى RCE.  
+● التصنيف: Critical 9.8",https://twitter.com/Hani7313/status/1628454256452796417,2023-02-22 00:00:00,2023-02-22 20:04:47+00:00,CVE-2022-39952https://twitter.com/Hani7313/status/1628454256452796417,
+CVE-2023-21839,"Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",7.5,Not in KEV,no data,"Zigzag retweeted:
+ 
+			
+ 
+			 
+ 
+				CVE-2023-21839: Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware..affected are 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP..  
+  
+PoC  
+github.com/Scarehehe/Webl…",https://twitter.com/zigzag_shafaf/status/1628451956531335170,2023-02-22 00:00:00,2023-02-22 20:04:47+00:00,CVE-2023-21839https://twitter.com/zigzag_shafaf/status/1628451956531335170,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,no data,Arctic Wolf Labs has observed proof of concept (PoC) exploit code being made publicly available for CVE-2022-39952. Security researchers have also started seeing active exploitation of CVE-2022-39952 occurring in the wild now that PoC exploit code has been published. (2/3),https://twitter.com/AWNetworks/status/1628490166808584194,2023-02-22 00:00:00,2023-02-22 20:34:21+00:00,CVE-2022-39952https://twitter.com/AWNetworks/status/1628490166808584194,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,no data,"Qutaibah retweeted:
+ 
+			
+ 
+			 
+ 
+				🚨 بالأمس نشرت شركة horizon3ai مقالة و POC عن ثغرة:  
+  
+External Control of File Name or Path in keyUpload scriptlet (CVE-2022-39952)  
+  
+● الثغرة مصابة بخدمة #FortiNAC المقدمة من شركة #Fortinet لحلول الأمن السيبراني.  
+● يمكن إستغلالها بسهولة وتؤدي إلى RCE.  
+● التصنيف: Critical 9.8",https://twitter.com/Qutaibah_qarni/status/1628489788503257090,2023-02-22 00:00:00,2023-02-22 20:34:21+00:00,CVE-2022-39952https://twitter.com/Qutaibah_qarni/status/1628489788503257090,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,no data,"Michel de CREVOISIER retweeted:
+ 
+			
+ 
+			 
+ 
+				POC for CVE-2022-39952 affecting Fortinet FortiNAC  
+Why it's so easy... :/  
+github.com/horizon3ai/CVE…",https://twitter.com/mdecrevoisier/status/1628489018919862278,2023-02-22 00:00:00,2023-02-22 20:34:21+00:00,CVE-2022-39952https://twitter.com/mdecrevoisier/status/1628489018919862278,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"Exploit released for critical Fortinet RCE flaw, patch now  
+Security researchers have released a proof-of-concept exploit for a critical-severity vulnerability (CVE-2022-39952) in Fortinet's FortiNAC network access control suite....",https://twitter.com/tsccbst/status/1628515239779266560,2023-02-22 00:00:00,2023-02-22 22:02:09+00:00,CVE-2022-39952https://twitter.com/tsccbst/status/1628515239779266560,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"Miguel retweeted:
+ 
+			
+ 
+			 
+ 
+				Our technical deep-dive for the recent #Fortinet FortiNAC CVE-2022-39952  
+🔺 POC Exploit for RCE  
+🔺 Reversing the Patch  
+🔺 Indicators of Compromise  
+  
+horizon3.ai/fortinet-forti…",https://twitter.com/Miguel54123418/status/1628510743216652293,2023-02-22 00:00:00,2023-02-22 22:02:09+00:00,CVE-2022-39952https://twitter.com/Miguel54123418/status/1628510743216652293,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"Vikas Anil Sharma retweeted:
+ 
+			
+ 
+			 
+ 
+				Our technical deep-dive for the recent #Fortinet FortiNAC CVE-2022-39952  
+🔺 POC Exploit for RCE  
+🔺 Reversing the Patch  
+🔺 Indicators of Compromise  
+  
+horizon3.ai/fortinet-forti…",https://twitter.com/VikzSharma/status/1628510142583959553,2023-02-22 00:00:00,2023-02-22 22:02:09+00:00,CVE-2022-39952https://twitter.com/VikzSharma/status/1628510142583959553,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"С.т.икс retweeted:
+ 
+			
+ 
+			 
+ 
+				Our technical deep-dive for the recent #Fortinet FortiNAC CVE-2022-39952  
+🔺 POC Exploit for RCE  
+🔺 Reversing the Patch  
+🔺 Indicators of Compromise  
+  
+horizon3.ai/fortinet-forti…",https://twitter.com/THB_STX/status/1628508679107403776,2023-02-22 00:00:00,2023-02-22 22:02:09+00:00,CVE-2022-39952https://twitter.com/THB_STX/status/1628508679107403776,
+CVE-2023-21839,"Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",7.5,Not in KEV,Not in NVD,"Korsakoff retweeted:
+ 
+			
+ 
+			 
+ 
+				CVE-2023-21839 Wheels made by public poc according to the network  
+Affected version  
+12.2.1.3.0  
+12.2.1.4.0  
+14.1.1.0.0  
+github.com/Scarehehe/Webl…",https://twitter.com/Korsakoff1/status/1628499312371019777,2023-02-22 00:00:00,2023-02-22 21:03:34+00:00,CVE-2023-21839https://twitter.com/Korsakoff1/status/1628499312371019777,
+CVE-2023-21839,"Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",7.5,Not in KEV,Not in NVD,"𝓢a𝖑𝖙𝖎n𝖇a𝖓ӄ ♤ DEADSEC ♤ retweeted:
+ 
+			
+ 
+			 
+ 
+				CVE-2023-21839 Wheels made by public poc according to the network  
+Affected version  
+12.2.1.3.0  
+12.2.1.4.0  
+14.1.1.0.0  
+github.com/Scarehehe/Webl…",https://twitter.com/SaltinDeadsec/status/1628495544132812801,2023-02-22 00:00:00,2023-02-22 21:03:34+00:00,CVE-2023-21839https://twitter.com/SaltinDeadsec/status/1628495544132812801,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"AZIZA retweeted:
+ 
+			
+ 
+			 
+ 
+				🔥 مابي اخرب عليك الاجازة، ولكن ثغرة CVE-2022-39952 في منتجات Fortinet FortiNAC تسمح للمهاجم بتنفيذ تعليمات برمجية ضارة  
+معلومات اكثر: horizon3.ai/fortinet-forti…  
+الحل: fortiguard.com/psirt/FG-IR-22…  
+بعض IPتقوم بعمليات الاختراق: viz.greynoise.io/tag/fortinac-r…  
+معلومات عن POC: github.com/horizon3ai/CVE…",https://twitter.com/ARARY4Q/status/1628493800682229761,2023-02-22 00:00:00,2023-02-22 21:03:34+00:00,CVE-2022-39952https://twitter.com/ARARY4Q/status/1628493800682229761,
+CVE-2023-39952,Not in NVD,Not in NVD,Not in KEV,Not in NVD,"falah337 retweeted:
+ 
+			
+ 
+			 
+ 
+				📣 قم باكتشاف عمليات الفحص و الاستغلال لثغرة   
+#FortiNet #FortiNAC، CVE-2023-39952 حيث يحاول المهاجمين بشكل نشط البحث عن الثغرة واستغلالها بعد صدور POC، للمزيد من المعلومات حول طرق الاكتشاف، نتشرف بزيارتكم لمنصة #CyberCave #الامن_السيبراني",https://twitter.com/falah3372/status/1628520482596130819,2023-02-22 00:00:00,2023-02-22 22:32:41+00:00,CVE-2023-39952https://twitter.com/falah3372/status/1628520482596130819,
+CVE-2023-21839,"Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",7.5,Not in KEV,Not in NVD,"vitra retweeted:
+ 
+			
+ 
+			 
+ 
+				CVE-2023-21839: Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware..affected are 12.2.1.3.0, 12.2.1.4.0 and 14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP..  
+  
+PoC  
+github.com/Scarehehe/Webl…",https://twitter.com/user_vitra/status/1628519920693641219,2023-02-22 00:00:00,2023-02-22 22:32:41+00:00,CVE-2023-21839https://twitter.com/user_vitra/status/1628519920693641219,
+CVE-2022-34689,Windows CryptoAPI Spoofing Vulnerability.,7.5,Not in KEV,Not in NVD,"Ivan Ristic retweeted:
+ 
+			
+ 
+			 
+ 
+				From the TLS newsletter: Last year, the NCSC UK and the NSA discovered a spoofing vulnerability involving MD5 collisions in Microsoft’s products (CVE-2022-34689). buff.ly/3XGnB9U  Akamai followed up with an analysis buff.ly/3DiBAeG and released a proof of concept.",https://twitter.com/ivanristic/status/1628517476106395649,2023-02-22 00:00:00,2023-02-22 22:32:41+00:00,CVE-2022-34689https://twitter.com/ivanristic/status/1628517476106395649,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"S4M 🇹🇷 retweeted:
+ 
+			
+ 
+			 
+ 
+				PoC #exploit, IoCs for Fortinet FortiNAC RCE released (CVE-2022-39952) securecybersolution.com/poc-exploit-io… #Sec_Cyber",https://twitter.com/s4msecurity/status/1628750641991503874,2023-02-23 00:00:00,2023-02-23 13:52:52+00:00,CVE-2022-39952https://twitter.com/s4msecurity/status/1628750641991503874,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,CVE-2022-39952 - POC for CVE-2022-39952 github.com/horizon3ai/CVE…,https://twitter.com/pythontrending/status/1628743700246298625,2023-02-23 00:00:00,2023-02-23 13:23:14+00:00,CVE-2022-39952https://twitter.com/pythontrending/status/1628743700246298625,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"B1nary0's Web - Fortinet soluciona 40 fallas, 2 críticas con PoC CVE-2022-39952 (PARCHEA!)  
+b1nary0.com.ar/fortinet-soluc…",https://twitter.com/b1nary0/status/1628735837192978432,2023-02-23 00:00:00,2023-02-23 12:52:54+00:00,CVE-2022-39952https://twitter.com/b1nary0/status/1628735837192978432,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"angie de kleine 🇳🇱🇪🇺🇩🇪🇺🇸🇨🇦🗽 retweeted:
+ 
+			
+ 
+			 
+ 
+				WARNING: FortiNAC webserver  contains a remote code execution (RCE) vulnerability, CVE-2022-39952, and FortiWeb proxy daemon is vulnerable to stack-based buffer Overflow flaw, CVE-2021-42756. A #POC has already been released. cert.be/en/warning-for… #Patch",https://twitter.com/adekleine/status/1628732013988421633,2023-02-23 00:00:00,2023-02-23 12:24:10+00:00,CVE-2022-39952https://twitter.com/adekleine/status/1628732013988421633,
+CVE-2021-42756,"Multiple stack-based buffer overflow vulnerabilities [CWE-121] in the proxy daemon of FortiWeb 5.x all versions, 6.0.7 and below, 6.1.2 and below, 6.2.6 and below, 6.3.16 and below, 6.4 all versions may allow an unauthenticated remote attacker to achieve arbitrary code execution via specifically crafted HTTP requests.",9.8,Not in KEV,Not in NVD,"angie de kleine 🇳🇱🇪🇺🇩🇪🇺🇸🇨🇦🗽 retweeted:
+ 
+			
+ 
+			 
+ 
+				WARNING: FortiNAC webserver  contains a remote code execution (RCE) vulnerability, CVE-2022-39952, and FortiWeb proxy daemon is vulnerable to stack-based buffer Overflow flaw, CVE-2021-42756. A #POC has already been released. cert.be/en/warning-for… #Patch",https://twitter.com/adekleine/status/1628732013988421633,2023-02-23 00:00:00,2023-02-23 12:24:10+00:00,CVE-2021-42756https://twitter.com/adekleine/status/1628732013988421633,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"SecurityTrails retweeted:
+ 
+			
+ 
+			 
+ 
+				WARNING: FortiNAC webserver  contains a remote code execution (RCE) vulnerability, CVE-2022-39952, and FortiWeb proxy daemon is vulnerable to stack-based buffer Overflow flaw, CVE-2021-42756. A #POC has already been released. cert.be/en/warning-for… #Patch",https://twitter.com/securitytrails/status/1628727148616855554,2023-02-23 00:00:00,2023-02-23 12:24:10+00:00,CVE-2022-39952https://twitter.com/securitytrails/status/1628727148616855554,
+CVE-2021-42756,"Multiple stack-based buffer overflow vulnerabilities [CWE-121] in the proxy daemon of FortiWeb 5.x all versions, 6.0.7 and below, 6.1.2 and below, 6.2.6 and below, 6.3.16 and below, 6.4 all versions may allow an unauthenticated remote attacker to achieve arbitrary code execution via specifically crafted HTTP requests.",9.8,Not in KEV,Not in NVD,"SecurityTrails retweeted:
+ 
+			
+ 
+			 
+ 
+				WARNING: FortiNAC webserver  contains a remote code execution (RCE) vulnerability, CVE-2022-39952, and FortiWeb proxy daemon is vulnerable to stack-based buffer Overflow flaw, CVE-2021-42756. A #POC has already been released. cert.be/en/warning-for… #Patch",https://twitter.com/securitytrails/status/1628727148616855554,2023-02-23 00:00:00,2023-02-23 12:24:10+00:00,CVE-2021-42756https://twitter.com/securitytrails/status/1628727148616855554,
+CVE-2022-46169,"Cacti is an open source platform which provides a robust and extensible operational monitoring and fault management framework for users. In affected versions a command injection vulnerability allows an unauthenticated user to execute arbitrary code on a server running Cacti, if a specific data source was selected for any monitored device. The vulnerability resides in the `remote_agent.php` file. This file can be accessed without authentication. This function retrieves the IP address of the client via `get_client_addr` and resolves this IP address to the corresponding hostname via `gethostbyaddr`. After this, it is verified that an entry within the `poller` table exists, where the hostname corresponds to the resolved hostname. If such an entry was found, the function returns `true` and the client is authorized. This authorization can be bypassed due to the implementation of the `get_client_addr` function. The function is defined in the file `lib/functions.php` and checks serval `$_SERVER` variables to determine the IP address of the client. The variables beginning with `HTTP_` can be arbitrarily set by an attacker. Since there is a default entry in the `poller` table with the hostname of the server running Cacti, an attacker can bypass the authentication e.g. by providing the header `Forwarded-For: <TARGETIP>`. This way the function `get_client_addr` returns the IP address of the server running Cacti. The following call to `gethostbyaddr` will resolve this IP address to the hostname of the server, which will pass the `poller` hostname check because of the default entry. After the authorization of the `remote_agent.php` file is bypassed, an attacker can trigger different actions. One of these actions is called `polldata`. The called function `poll_for_data` retrieves a few request parameters and loads the corresponding `poller_item` entries from the database. If the `action` of a `poller_item` equals `POLLER_ACTION_SCRIPT_PHP`, the function `proc_open` is used to execute a PHP script. The attacker-controlled parameter `$poller_id` is retrieved via the function `get_nfilter_request_var`, which allows arbitrary strings. This variable is later inserted into the string passed to `proc_open`, which leads to a command injection vulnerability. By e.g. providing the `poller_id=;id` the `id` command is executed. In order to reach the vulnerable call, the attacker must provide a `host_id` and `local_data_id`, where the `action` of the corresponding `poller_item` is set to `POLLER_ACTION_SCRIPT_PHP`. Both of these ids (`host_id` and `local_data_id`) can easily be bruteforced. The only requirement is that a `poller_item` with an `POLLER_ACTION_SCRIPT_PHP` action exists. This is very likely on a productive instance because this action is added by some predefined templates like `Device - Uptime` or `Device - Polling Time`. This command injection vulnerability allows an unauthenticated user to execute arbitrary commands if a `poller_item` with the `action` type `POLLER_ACTION_SCRIPT_PHP` (`2`) is configured. The authorization bypass should be prevented by not allowing an attacker to make `get_client_addr` (file `lib/functions.php`) return an arbitrary IP address. This could be done by not honoring the `HTTP_...` `$_SERVER` variables. If these should be kept for compatibility reasons it should at least be prevented to fake the IP address of the server running Cacti. This vulnerability has been addressed in both the 1.2.x and 1.3.x release branches with `1.2.23` being the first release containing the patch.",9.8,In KEV,2023-02-16 00:00:00,"They've got a little list...  
+  
+""US CISA added the following actively exploited flaws to its Known Exploited Vulnerabilities Catalog:  
+  
+CVE-2022-46169 – Cacti is an open-source platform that provides a robust and extensible operational monitoring and...""  
+bit.ly/3KjqSc5",https://twitter.com/JonathanHCare/status/1628726585430880257,2023-02-23 00:00:00,2023-02-23 12:24:10+00:00,CVE-2022-46169https://twitter.com/JonathanHCare/status/1628726585430880257,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"WARNING: FortiNAC webserver  contains a remote code execution (RCE) vulnerability, CVE-2022-39952, and FortiWeb proxy daemon is vulnerable to stack-based buffer Overflow flaw, CVE-2021-42756. A #POC has already been released. cert.be/en/warning-for… #Patch",https://twitter.com/certbe/status/1628713841566666754,2023-02-23 00:00:00,2023-02-23 11:25:10+00:00,CVE-2022-39952https://twitter.com/certbe/status/1628713841566666754,
+CVE-2021-42756,"Multiple stack-based buffer overflow vulnerabilities [CWE-121] in the proxy daemon of FortiWeb 5.x all versions, 6.0.7 and below, 6.1.2 and below, 6.2.6 and below, 6.3.16 and below, 6.4 all versions may allow an unauthenticated remote attacker to achieve arbitrary code execution via specifically crafted HTTP requests.",9.8,Not in KEV,Not in NVD,"WARNING: FortiNAC webserver  contains a remote code execution (RCE) vulnerability, CVE-2022-39952, and FortiWeb proxy daemon is vulnerable to stack-based buffer Overflow flaw, CVE-2021-42756. A #POC has already been released. cert.be/en/warning-for… #Patch",https://twitter.com/certbe/status/1628713841566666754,2023-02-23 00:00:00,2023-02-23 11:25:10+00:00,CVE-2021-42756https://twitter.com/certbe/status/1628713841566666754,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"DTS Solution retweeted:
+ 
+			
+ 
+			 
+ 
+				Fortinet FortiNAC Vulnerability Exploited in Wild Days After Release of Patch: Hackers started exploiting the Fortinet FortiNAC vulnerability CVE-2022-39952 the same day a PoC exploit was released.   
+  
+The post Fortinet FortiNAC Vulnerability Exploited in… securityweek.com/fortinet-forti…",https://twitter.com/DTS_Solution/status/1628709514047541248,2023-02-23 00:00:00,2023-02-23 10:55:16+00:00,CVE-2022-39952https://twitter.com/DTS_Solution/status/1628709514047541248,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"Fortinet FortiNAC Vulnerability Exploited in Wild Days After Release of Patch: Hackers started exploiting the Fortinet FortiNAC vulnerability CVE-2022-39952 the same day a PoC exploit was released.   
+  
+The post Fortinet FortiNAC Vulnerability Exploited in… securityweek.com/fortinet-forti…",https://twitter.com/shah_sheikh/status/1628709395361320960,2023-02-23 00:00:00,2023-02-23 10:55:16+00:00,CVE-2022-39952https://twitter.com/shah_sheikh/status/1628709395361320960,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,Hackers started exploiting the Fortinet FortiNAC vulnerability CVE-2022-39952 the same day a PoC exploit was released. securityweek.com/fortinet-forti…,https://twitter.com/EduardKovacs/status/1628698178743635969,2023-02-23 00:00:00,2023-02-23 10:24:51+00:00,CVE-2022-39952https://twitter.com/EduardKovacs/status/1628698178743635969,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"PoC #exploit, IoCs for Fortinet FortiNAC RCE released (CVE-2022-39952) securecybersolution.com/poc-exploit-io… #Sec_Cyber",https://twitter.com/CyberGuardNews/status/1628681380183048193,2023-02-23 00:00:00,2023-02-23 09:25:18+00:00,CVE-2022-39952https://twitter.com/CyberGuardNews/status/1628681380183048193,
+CVE-2022-31474,Not in NVD,Not in NVD,Not in KEV,Not in NVD,"Cyber Security Bot retweeted:
+ 
+			
+ 
+			 
+ 
+				[Oh noo] New 0-Day affecting WordPress exploited in the wild 👇  
+  
+WordPress BackupBuddy Plugin LFI  
+(CVE-2022-31474)   
+  
+Try this non-destructive Template to detect the vulnerability at scale 👇  
+  
+#recon #AttackSurface #bugbountytips #bugbounty #nuclei #cve #cve2022 #wordpress #0day",https://twitter.com/cybsecbot/status/1628647106251567110,2023-02-23 00:00:00,2023-02-23 06:58:53+00:00,CVE-2022-31474https://twitter.com/cybsecbot/status/1628647106251567110,
+CVE-2022-31474,Not in NVD,Not in NVD,Not in KEV,Not in NVD,"[Oh noo] New 0-Day affecting WordPress exploited in the wild 👇  
+  
+WordPress BackupBuddy Plugin LFI  
+(CVE-2022-31474)   
+  
+Try this non-destructive Template to detect the vulnerability at scale 👇  
+  
+#recon #AttackSurface #bugbountytips #bugbounty #nuclei #cve #cve2022 #wordpress #0day",https://twitter.com/san28704295/status/1628643279423283201,2023-02-23 00:00:00,2023-02-23 06:58:53+00:00,CVE-2022-31474https://twitter.com/san28704295/status/1628643279423283201,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"■■■■□ CVE-2022-39952 (CVSS score 9.8) and CVE-2021-42756 are respectively an external control of file name or path in Fortinet FortiNAC and a collection of stack-based buffer overflow issues in the proxy daemon of FortiWeb.  
+  
+securityaffairs.com/142553/hacking…",https://twitter.com/cKure7/status/1628635163587477504,2023-02-23 00:00:00,2023-02-23 05:59:18+00:00,CVE-2022-39952https://twitter.com/cKure7/status/1628635163587477504,
+CVE-2021-42756,"Multiple stack-based buffer overflow vulnerabilities [CWE-121] in the proxy daemon of FortiWeb 5.x all versions, 6.0.7 and below, 6.1.2 and below, 6.2.6 and below, 6.3.16 and below, 6.4 all versions may allow an unauthenticated remote attacker to achieve arbitrary code execution via specifically crafted HTTP requests.",9.8,Not in KEV,Not in NVD,"■■■■□ CVE-2022-39952 (CVSS score 9.8) and CVE-2021-42756 are respectively an external control of file name or path in Fortinet FortiNAC and a collection of stack-based buffer overflow issues in the proxy daemon of FortiWeb.  
+  
+securityaffairs.com/142553/hacking…",https://twitter.com/cKure7/status/1628635163587477504,2023-02-23 00:00:00,2023-02-23 05:59:18+00:00,CVE-2021-42756https://twitter.com/cKure7/status/1628635163587477504,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"VFAC retweeted:
+ 
+			
+ 
+			 
+ 
+				Heads up: exploit code is on the loose for a Fortinet FortiNAC remote code execution vuln (CVE-2022-39952). Here's the story: bit.ly/3lMKCdR",https://twitter.com/VFArtisanCodeur/status/1628779475142934528,2023-02-23 00:00:00,2023-02-23 15:53:18+00:00,CVE-2022-39952https://twitter.com/VFArtisanCodeur/status/1628779475142934528,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,Heads up: exploit code is on the loose for a Fortinet FortiNAC remote code execution vuln (CVE-2022-39952). Here's the story: bit.ly/3lMKCdR via @DarkReading,https://twitter.com/_DrFrusci/status/1628779321841143810,2023-02-23 00:00:00,2023-02-23 15:53:18+00:00,CVE-2022-39952https://twitter.com/_DrFrusci/status/1628779321841143810,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,Heads up: exploit code is on the loose for a Fortinet FortiNAC remote code execution vuln (CVE-2022-39952). Here's the story: bit.ly/3lMKCdR,https://twitter.com/DarkReading/status/1628779213980422145,2023-02-23 00:00:00,2023-02-23 15:53:18+00:00,CVE-2022-39952https://twitter.com/DarkReading/status/1628779213980422145,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"NCU-ISAO retweeted:
+ 
+			
+ 
+			 
+ 
+				Hackers started exploiting the Fortinet FortiNAC vulnerability CVE-2022-39952 the same day a PoC exploit was released. securityweek.com/fortinet-forti…",https://twitter.com/NcuIsao/status/1628775973989810182,2023-02-23 00:00:00,2023-02-23 15:22:57+00:00,CVE-2022-39952https://twitter.com/NcuIsao/status/1628775973989810182,
+CVE-2023-0669,"Fortra (formerly, HelpSystems) GoAnywhere MFT suffers from a pre-authentication command injection vulnerability in the License Response Servlet due to deserializing an arbitrary attacker-controlled object. This issue was patched in version 7.1.2.",7.2,In KEV,2023-02-10 00:00:00,"#Sigma rule to detect #exploits for GoAnywhere MFT #zeroday #vulnerability (CVE-2023-0669) actively leveraged to target organizations globally.  
+  
+socprime.com/rs/search-resu…   
+   
+#CVE #DFIR #BlueTeam #exploit #threatdetection #threathunting #cyberattack #infosec #CTI #cyberdefense",https://twitter.com/SOC_Prime/status/1628785257808814081,2023-02-23 00:00:00,2023-02-23 16:23:55+00:00,CVE-2023-0669https://twitter.com/SOC_Prime/status/1628785257808814081,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"Cyber Security News retweeted:
+ 
+			
+ 
+			 
+ 
+				Fortinet FortiNAC CVE-2022-39952 flaw exploited in the wild hours after the release of PoC exploit ift.tt/mrcOhHY #cyber  #awareness #threatintell #CTI #intelligence #detect_and_response #EDR #XDR #CyberThreat #CyberThreatIntelligence #Zeroday #Vulnerability #RiskManag…",https://twitter.com/CyberSecurityN8/status/1628851060621049857,2023-02-23 00:00:00,2023-02-23 20:23:26+00:00,CVE-2022-39952https://twitter.com/CyberSecurityN8/status/1628851060621049857,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,Fortinet FortiNAC CVE-2022-39952 flaw exploited in the wild hours after the release of PoC exploit securityaffairs.com/142621/hacking…,https://twitter.com/HackerSpyNet1/status/1628850824012234752,2023-02-23 00:00:00,2023-02-23 20:23:26+00:00,CVE-2022-39952https://twitter.com/HackerSpyNet1/status/1628850824012234752,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"Security News retweeted:
+ 
+			
+ 
+			 
+ 
+				Fortinet FortiNAC CVE-2022-39952 flaw exploited in the wild hours after the release of PoC exploit ift.tt/mrcOhHY #cyber  #awareness #threatintell #CTI #intelligence #detect_and_response #EDR #XDR #CyberThreat #CyberThreatIntelligence #Zeroday #Vulnerability #RiskManag…",https://twitter.com/sectest9/status/1628849132759654405,2023-02-23 00:00:00,2023-02-23 20:23:26+00:00,CVE-2022-39952https://twitter.com/sectest9/status/1628849132759654405,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,Fortinet FortiNAC CVE-2022-39952 flaw exploited in the wild hours after the release of PoC exploit: ift.tt/FJ8ISK4 by Security Affairs  #infosec #software #technology,https://twitter.com/Alevskey/status/1628848607091691527,2023-02-23 00:00:00,2023-02-23 20:23:26+00:00,CVE-2022-39952https://twitter.com/Alevskey/status/1628848607091691527,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,Fortinet FortiNAC CVE-2022-39952 flaw exploited in the wild hours after the release of PoC exploit ift.tt/mrcOhHY #cyber  #awareness #threatintell #CTI #intelligence #detect_and_response #EDR #XDR #CyberThreat #CyberThreatIntelligence #Zeroday #Vulnerability #RiskManag…,https://twitter.com/SK_Expert/status/1628848597952233473,2023-02-23 00:00:00,2023-02-23 20:23:26+00:00,CVE-2022-39952https://twitter.com/SK_Expert/status/1628848597952233473,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"DTS Solution retweeted:
+ 
+			
+ 
+			 
+ 
+				Fortinet FortiNAC CVE-2022-39952 flaw exploited in the wild hours after the release of PoC exploit: Threat actors are actively exploiting the Fortinet FortiNAC vulnerability CVE-2022-39952 a few hours after the publication of the PoC exploit code. This… securityaffairs.com/142621/hacking…",https://twitter.com/DTS_Solution/status/1628848432780816384,2023-02-23 00:00:00,2023-02-23 20:23:26+00:00,CVE-2022-39952https://twitter.com/DTS_Solution/status/1628848432780816384,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,Fortinet FortiNAC CVE-2022-39952 flaw exploited in the wild hours after the release of PoC exploit securityaffairs.com/142621/hacking…,https://twitter.com/thedpsadvisors/status/1628848313570299904,2023-02-23 00:00:00,2023-02-23 20:23:26+00:00,CVE-2022-39952https://twitter.com/thedpsadvisors/status/1628848313570299904,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,Fortinet FortiNAC CVE-2022-39952 flaw exploited in the wild hours after the release of PoC exploit dlvr.it/Sjv5MC,https://twitter.com/Xc0resecurity/status/1628848312458838017,2023-02-23 00:00:00,2023-02-23 20:23:26+00:00,CVE-2022-39952https://twitter.com/Xc0resecurity/status/1628848312458838017,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,Fortinet FortiNAC CVE-2022-39952 flaw exploited in the wild hours after the release of PoC exploit dlvr.it/Sjv5J8 via securityaffairs,https://twitter.com/AcooEdi/status/1628848308994338818,2023-02-23 00:00:00,2023-02-23 20:23:26+00:00,CVE-2022-39952https://twitter.com/AcooEdi/status/1628848308994338818,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,Fortinet FortiNAC CVE-2022-39952 flaw exploited in the wild hours after the release of PoC exploit: Threat actors are actively exploiting the Fortinet FortiNAC vulnerability CVE-2022-39952 a few hours after the publication of the PoC exploit code. This… securityaffairs.com/142621/hacking…,https://twitter.com/shah_sheikh/status/1628848307979300864,2023-02-23 00:00:00,2023-02-23 20:23:26+00:00,CVE-2022-39952https://twitter.com/shah_sheikh/status/1628848307979300864,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,Fortinet FortiNAC CVE-2022-39952 flaw exploited in the wild hours after the release of PoC exploit dlvr.it/Sjv5Jp,https://twitter.com/TheCyberSecHub/status/1628848306502909952,2023-02-23 00:00:00,2023-02-23 20:23:26+00:00,CVE-2022-39952https://twitter.com/TheCyberSecHub/status/1628848306502909952,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,Fortinet FortiNAC CVE-2022-39952 flaw exploited in the wild hours after the release of PoC exploit securityaffairs.com/142621/hacking…,https://twitter.com/security_inside/status/1628847732721913858,2023-02-23 00:00:00,2023-02-23 20:23:26+00:00,CVE-2022-39952https://twitter.com/security_inside/status/1628847732721913858,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"@Shadowserver @GreyNoiseIO @1ZRR4H @Andrew___Morris #Fortinet #FortiNAC CVE-2022-39952 flaw exploited in the wild hours after the release of #PoC exploit  
+securityaffairs.com/142621/hacking…  
+#securityaffairs #hacking #China",https://twitter.com/securityaffairs/status/1628843916718968836,2023-02-23 00:00:00,2023-02-23 19:53:02+00:00,CVE-2022-39952https://twitter.com/securityaffairs/status/1628843916718968836,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"Ayer/hoy, PoC, exploit y malware para #Fortinet FortiNAC CVE-2022-39952.  
+  
+Hoy, una herramienta para realizar masscan de la vulnerabilidad en #OpenSSH 9.1 CVE-2023-25136.  
+Info: blog.segu-info.com.ar/2023/02/vulner…",https://twitter.com/SeguInfo/status/1628825001750147075,2023-02-23 00:00:00,2023-02-23 18:53:30+00:00,CVE-2022-39952https://twitter.com/SeguInfo/status/1628825001750147075,
+CVE-2023-25136,"OpenSSH server (sshd) 9.1 introduced a double-free vulnerability during options.kex_algorithms handling. This is fixed in OpenSSH 9.2. The double free can be leveraged, by an unauthenticated remote attacker in the default configuration, to jump to any location in the sshd address space. One third-party report states ""remote code execution is theoretically possible.""",9.8,Not in KEV,Not in NVD,"Ayer/hoy, PoC, exploit y malware para #Fortinet FortiNAC CVE-2022-39952.  
+  
+Hoy, una herramienta para realizar masscan de la vulnerabilidad en #OpenSSH 9.1 CVE-2023-25136.  
+Info: blog.segu-info.com.ar/2023/02/vulner…",https://twitter.com/SeguInfo/status/1628825001750147075,2023-02-23 00:00:00,2023-02-23 18:53:30+00:00,CVE-2023-25136https://twitter.com/SeguInfo/status/1628825001750147075,
+CVE-2023-0988,"A vulnerability, which was classified as problematic, has been found in SourceCodester Online Pizza Ordering System 1.0. This issue affects some unknown processing of the file admin/ajax.php?action=save_user. The manipulation leads to cross-site request forgery. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-221681 was assigned to this vulnerability.",Not in NVD,Not in KEV,Not in NVD,[Exploit] We have added exploits for CVE-2023-0988 and CVE-2023-0987 vuldb.com/?exploits.2023… #exploit #exploits #poc,https://twitter.com/vuldb/status/1628815763380240392,2023-02-23 00:00:00,2023-02-23 18:24:39+00:00,CVE-2023-0988https://twitter.com/vuldb/status/1628815763380240392,
+CVE-2023-0987,A vulnerability classified as problematic was found in SourceCodester Online Pizza Ordering System 1.0. This vulnerability affects unknown code of the file index.php?page=checkout. The manipulation leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-221680.,Not in NVD,Not in KEV,Not in NVD,[Exploit] We have added exploits for CVE-2023-0988 and CVE-2023-0987 vuldb.com/?exploits.2023… #exploit #exploits #poc,https://twitter.com/vuldb/status/1628815763380240392,2023-02-23 00:00:00,2023-02-23 18:24:39+00:00,CVE-2023-0987https://twitter.com/vuldb/status/1628815763380240392,
+CVE-2023-0669,"Fortra (formerly, HelpSystems) GoAnywhere MFT suffers from a pre-authentication command injection vulnerability in the License Response Servlet due to deserializing an arbitrary attacker-controlled object. This issue was patched in version 7.1.2.",7.2,In KEV,2023-02-10 00:00:00,"oswald kendy retweeted:
+ 
+			
+ 
+			 
+ 
+				#FortiGuardLabs Threat Signal Report: GoAnywhere MFT RCE Vulnerability (CVE-2023-0669) Actively Exploited ⮕ ftnt.net/60173UiD7",https://twitter.com/QbanKendy/status/1628903738126499840,2023-02-23 00:00:00,2023-02-23 23:50:28+00:00,CVE-2023-0669https://twitter.com/QbanKendy/status/1628903738126499840,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"boB Rudis 🇺🇦 🐘@hrbrmstr@mastodon.social retweeted:
+ 
+			
+ 
+			 
+ 
+				@Shadowserver @GreyNoiseIO @1ZRR4H @Andrew___Morris #Fortinet #FortiNAC CVE-2022-39952 flaw exploited in the wild hours after the release of #PoC exploit  
+securityaffairs.com/142621/hacking…  
+#securityaffairs #hacking #China",https://twitter.com/hrbrmstr/status/1628902527738515456,2023-02-23 00:00:00,2023-02-23 23:50:28+00:00,CVE-2022-39952https://twitter.com/hrbrmstr/status/1628902527738515456,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"Andrew Morris retweeted:
+ 
+			
+ 
+			 
+ 
+				@Shadowserver @GreyNoiseIO @1ZRR4H @Andrew___Morris #Fortinet #FortiNAC CVE-2022-39952 flaw exploited in the wild hours after the release of #PoC exploit  
+securityaffairs.com/142621/hacking…  
+#securityaffairs #hacking #China",https://twitter.com/Andrew___Morris/status/1628884824441163776,2023-02-23 00:00:00,2023-02-23 22:51:02+00:00,CVE-2022-39952https://twitter.com/Andrew___Morris/status/1628884824441163776,
+CVE-2022-39952,"A external control of file name or path in Fortinet FortiNAC versions 9.4.0, 9.2.0 through 9.2.5, 9.1.0 through 9.1.7, 8.8.0 through 8.8.11, 8.7.0 through 8.7.6, 8.6.0 through 8.6.5, 8.5.0 through 8.5.4, 8.3.7 may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP request.",9.8,Not in KEV,Not in NVD,"#Cybersecurity researchers released a PoC exploit code for the critical CVE-2022-39952 #vulnerability in the #Fortinet #FortiNAC network access control solution.  
+buff.ly/3Ipqk1E",https://twitter.com/twelvesec/status/1628870068976115714,2023-02-23 00:00:00,2023-02-23 21:52:18+00:00,CVE-2022-39952https://twitter.com/twelvesec/status/1628870068976115714,
